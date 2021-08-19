@@ -1,0 +1,44 @@
+{
+  "name": "narwhal-js",
+  "version": "0.0.0",
+  "description": "Extract different types of text in a localized string",
+  "type": "module",
+  "exports": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "author": "Mgenware (https://github.com/mgenware)",
+  "homepage": "https://github.com/mgenware/narwhal-js",
+  "bugs": "https://github.com/mgenware/narwhal-js/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/narwhal-js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "r": "daizong",
+    "test": "daizong build"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts",
+    "dist/**/*.html",
+    "dist/**/*.css",
+    "dist/**/*.map"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.6.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "daizong": "^0.15.3",
+    "eslint": "^7.32.0",
+    "eslint-config-mgenware": "^0.2.0",
+    "eslint-plugin-import": "^2.24.0",
+    "mgenware-tsconfig-node": "^14.0.2",
+    "mocha": "^9.0.3",
+    "source-map-support": "^0.5.19",
+    "typescript": "^4.3.5"
+  }
+}
